@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+
+  rips-web:
+    build:
+      context: rips
+    volumes:
+      - ${CODE}:/src
+    ports:
+      - 127.0.0.1:8182:80
