@@ -10,6 +10,7 @@ cd rips-docker
 export CODE=/path/to/code/to/scan # your code to scan
 docker-compose up
 ```
+If you don't add the CODE env variable, you can put your code to analyse in the code folder.
 
 2. Go to localhost:8182 and type '/code' on the 'Path / file' form field : 
 
