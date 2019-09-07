@@ -6,6 +6,6 @@ services:
     build:
       context: rips
     volumes:
-      - ${CODE}:/src
+      - ${CODE}:/code
     ports:
       - 127.0.0.1:8182:80
